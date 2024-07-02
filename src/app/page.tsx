@@ -9,7 +9,7 @@ import Rick from "../app/assets/rick-img.png";
 import RickHead from "../app/assets/rick-head.png";
 import Ufo from "../app/assets/ufo.png";
 import Logo from "../app/assets/logo.png";
-import GameJoinBg from "../app/assets/bg.jpg";
+import GameJoinBg from "../app/assets/bg.png";
 
 import OctopusLeftBlue from "../app/assets/ahtapot-left-blue.png";
 import OctopusRightBlue from "../app/assets/ahtapot-right-blue.png";
@@ -192,11 +192,18 @@ export default function Home() {
             <div className="game-join-container w-full px-1 mt-4 h-full flex items-end mb-6">
                <div className="container w-full h-auto border border-yellow-main rounded-[15px] flex flex-col relative overflow-hidden">
                   <div className="game-join-bg-img absolute w-full h-full z-10">
-                     <Image
-                        src={GameJoinBg}
-                        alt="bg"
+                     <img
+                        src="https://i.imgur.com/B33cvaH.jpeg"
+                        alt=""
                         className="w-full h-auto "
                      />
+                     {/* <Image
+                        src="https://i.imgur.com/B33cvaH.jpeg"
+                        width={100}
+                        height={100}
+                        alt="bg"
+                        className="w-full h-auto "
+                     /> */}
                   </div>
                   <div className="top flex gap-4 justify-center items-center relative z-20 pt-2">
                      <div className="left">
