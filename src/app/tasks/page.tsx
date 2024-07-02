@@ -62,7 +62,7 @@ const TasksPage: React.FC = () => {
                {tasks.length} tasks available
             </h5>
             <p className="font-bold text-[12px] text-white-text">
-               Complete missions and earn SHMT Tokens!
+               Complete missions and earn SHM Tokens!
             </p>
          </div>
          <div className="custom-scroll tasks-list mt-6 flex flex-col w-full h-full px-6 gap-3">
@@ -75,18 +75,18 @@ const TasksPage: React.FC = () => {
                      <div className="task-icon h-full flex items-center">
                         {task.taskIcon}
                      </div>
-                     <div className="task-middle w-full flex flex-col gap-0 pl-4 flex-1 justify-center">
-                        <p className="task-text font-medium text-[11px]">
+                     <div className="task-middle w-full flex flex-col gap-0 pl-4 flex-1 justify-center h-full">
+                        <p className="task-text font-semibold text-[11px]">
                            {task.taskText}
                         </p>
                         <div className="reward-text flex gap-2 items-center -mt-[2px]">
                            <Image
                               src={Logo}
                               alt="logo"
-                              className="h-9 w-auto -ml-1"
+                              className="h-7 w-auto -ml-1"
                            />
                            <p className="task-reward font-bold text-[15px]">
-                              +{task.taskReward} SHMT
+                              +{task.taskReward} SHM
                            </p>
                         </div>
                      </div>

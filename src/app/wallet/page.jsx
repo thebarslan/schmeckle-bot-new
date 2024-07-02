@@ -17,7 +17,7 @@ const Wallet = () => {
          </div>
          <div className="button-container w-full flex items-center justify-center px-6 mt-12">
             <button className="bg-yellow-main h-14 w-full rounded-[15px] flex items-center justify-center relative">
-               <h5 className="font-semibold text-[17px] text-black">
+               <h5 className="font-bold text-[17px] text-black">
                   Connect Wallet
                </h5>
                <div className="absolute left-4">

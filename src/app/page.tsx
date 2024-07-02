@@ -171,9 +171,9 @@ export default function Home() {
                <div className="title w-full flex justify-center">
                   <p className="font-semibold text-[12px]">Total Balance</p>
                </div>
-               <div className="tokens-balance w-full flex justify-center items-center font-extrabold text-[36px] -mt-4 relative">
+               <div className="tokens-balance w-full flex justify-center items-center font-extrabold text-[44px] -mt-4 relative">
                   <h5 className="text-border">{formatBalance(balance)}</h5>
-                  <div className="absolute -bottom-0 left-10">
+                  <div className="absolute bottom-[2px] left-1/2 -translate-x-1/2">
                      <svg
                         width="250"
                         height="15"
@@ -205,8 +205,8 @@ export default function Home() {
                      <div className="middle flex items-center justify-center gap-0 -ml-1">
                         <div className="left">
                            <svg
-                              width="24"
-                              height="24"
+                              width="18"
+                              height="18"
                               viewBox="0 0 24 24"
                               fill="none"
                               xmlns="http://www.w3.org/2000/svg"
@@ -220,7 +220,7 @@ export default function Home() {
                            </svg>
                         </div>
                         <div className="text flex items-center -mt-[4px]">
-                           <h5 className="font-bold text-[22px] ">10</h5>
+                           <h5 className="font-semibold text-[18px] ">10</h5>
                         </div>
                      </div>
                      <div className="right">
@@ -236,10 +236,10 @@ export default function Home() {
                         />
                      </div>
                      <div className="middle flex flex-col gap-[10px] w-auto text-center">
-                        <h5 className="text-[13px] font-bold">
+                        <h5 className="text-[14px] font-bold">
                            Play and Earn SHM
                         </h5>
-                        <button className="bg-yellow-main w-2/3  mx-auto rounded-full text-black font-semibold text-[12px]">
+                        <button className="bg-yellow-main w-2/3  mx-auto rounded-full text-black font-bold text-[13px]">
                            Play
                         </button>
                      </div>

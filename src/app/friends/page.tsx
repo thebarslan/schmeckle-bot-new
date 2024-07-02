@@ -180,7 +180,7 @@ const FriendsPage = () => {
                      />
                   </div>
                   <button
-                     className="w-full bg-yellow-main rounded-[10px] text-black font-semibold hover:bg-white hover:text-black transition-colors duration-500"
+                     className="w-full bg-yellow-main rounded-[10px] text-black font-bold hover:bg-white hover:text-black transition-colors duration-500"
                      onClick={() => setIsFriensInvitedBefore(true)}
                   >
                      <h5 className="text-[18px]">Invite friends +</h5>

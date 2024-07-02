@@ -105,7 +105,7 @@ const Farming: React.FC<FarmingProps> = ({ onClaim }) => {
                   onClick={handleClaim}
                >
                   <h5 className="text-black font-extrabold text-[16px] relative z-60">
-                     CLAIM SHMT
+                     CLAIM SHM
                   </h5>
                </button>
             ) : isStarted ? (
@@ -114,7 +114,7 @@ const Farming: React.FC<FarmingProps> = ({ onClaim }) => {
                      className="inside-bar absolute left-0 top-0 bg-yellow-main h-full rounded-[5px] flex items-center justify-center"
                      style={{ width: `${widthPercentage}%` }}
                   ></div>
-                  <h5 className="text-[#3d3d3d] font-extrabold text-[24px] relative z-60 pb-[2px]">
+                  <h5 className="text-[#3d3d3d] font-extrabold text-[20px] relative z-60 pb-[2px]">
                      {current.toFixed(3)}
                   </h5>
                </>
@@ -123,7 +123,7 @@ const Farming: React.FC<FarmingProps> = ({ onClaim }) => {
                   className="w-full rounded-[5px] h-full bg-yellow-main flex justify-center items-center"
                   onClick={handleStart}
                >
-                  <h5 className="text-black font-extrabold text-[24px] relative z-60">
+                  <h5 className="text-black font-extrabold text-[16px] relative z-60">
                      START
                   </h5>
                </button>
