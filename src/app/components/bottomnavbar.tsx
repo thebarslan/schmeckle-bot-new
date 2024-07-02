@@ -33,10 +33,10 @@ const BottomNavbar = () => {
 
    return (
       <div className="navbar w-full flex text-center px-5 justify-between pb-8 pt-6 flex-shrink-0">
-         <div className="navbar-inside flex justify-between w-full bg-[#272A2F] px-2  items-center rounded-[15px] h-[76px]">
+         <div className="navbar-inside flex justify-between w-full bg-[#272A2F] px-2  items-center rounded-[15px] h-[60px]">
             <div className="nav-item flex flex-col gap-1 flex-1 w-full items-center">
                <a href="/">
-                  <div className="icon-container w-auto flex justify-center h-[46px] items-center">
+                  <div className="icon-container w-auto flex justify-center h-[32px] items-center">
                      <Image
                         src={RickNavbar}
                         alt="rick"
@@ -58,7 +58,7 @@ const BottomNavbar = () => {
             </div>
             <div className="nav-item flex flex-col gap-1 flex-1 w-full items-center">
                <a href="/tasks">
-                  <div className="icon-container w-auto flex justify-center h-[46px] items-center">
+                  <div className="icon-container w-auto flex justify-center h-[32px] items-center">
                      <svg
                         width="28"
                         height="28"
@@ -85,7 +85,7 @@ const BottomNavbar = () => {
             </div>
             <div className="nav-item flex flex-col gap-1 flex-1 w-full items-center">
                <a href="/friends">
-                  <div className="icon-container w-auto flex justify-center h-[46px] items-center">
+                  <div className="icon-container w-auto flex justify-center h-[32px] items-center">
                      <div className="container h-full flex items-center justify-center">
                         <svg
                            width="25"
@@ -122,7 +122,7 @@ const BottomNavbar = () => {
             </div>
             <div className="nav-item flex flex-col gap-1 flex-1 w-full items-center">
                <a href="/">
-                  <div className="icon-container w-auto flex justify-center h-[46px] items-center">
+                  <div className="icon-container w-auto flex justify-center h-[32px] items-center">
                      <div className="container h-full flex items-center justify-center">
                         <svg
                            width="32"
@@ -153,11 +153,11 @@ const BottomNavbar = () => {
             </div>
             <div className="nav-item flex flex-col gap-1 flex-1 w-full items-center">
                <a href="/wallet">
-                  <div className="icon-container w-auto flex justify-center h-[46px] items-center">
+                  <div className="icon-container w-auto flex justify-center h-[32px] items-center">
                      <Image
                         src={Logo}
                         alt="rick"
-                        className="w-[44px] h-auto"
+                        className="w-[32px] h-auto"
                         loading="eager"
                      />
                   </div>

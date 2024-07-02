@@ -89,9 +89,9 @@ const Farming: React.FC<FarmingProps> = ({ onClaim }) => {
    };
 
    return (
-      <div className="w-full flex flex-col gap-[6px]">
+      <div className="w-full flex flex-col gap-[4px]">
          <div className="w-full flex px-2 justify-between items-center">
-            <h5 className="font-bold text-[15px]">Farming SHM</h5>
+            <h5 className="font-bold text-[13px]">Farming SHM</h5>
          </div>
          <div className="bar h-[60px] w-full rounded-[15px] bg-white relative flex items-center justify-center overflow-hidden">
             <div className="absolute right-4 z-100">

@@ -50,8 +50,8 @@ export default function Home() {
             />
             <div className="h-full flex-1 w-full flex flex-col">
                <div className="title w-full flex flex-col items-center">
-                  <h1 className="text-4xl font-semibold mb-1">Heyy!</h1>
-                  <h1 className="text-4xl font-semibold mb-4">
+                  <h1 className="text-xl font-semibold mb-1">Heyy!</h1>
+                  <h1 className="text-xl font-semibold mb-4">
                      Welcome to Schmeckle
                   </h1>
                </div>
@@ -59,11 +59,11 @@ export default function Home() {
                   <Image
                      src={Logo}
                      alt="schmeckle-logo"
-                     className="w-28 h-auto"
+                     className="w-20 h-auto"
                   />
                </div>
                <div className="input-container w-full flex flex-col px-5 ">
-                  <h5 className="pl-2">Nickname</h5>
+                  <h5 className="pl-2 text-[14px]">Nickname</h5>
                   <input
                      type="text"
                      placeholder=""
@@ -101,13 +101,14 @@ export default function Home() {
                   }
                }}
             />
-            <div className="top-bar w-full flex justify-between gap-12">
+            <div className="top-bar w-full flex justify-between gap-6">
                <div className="left flex gap-2 items-center w-full flex-1">
                   <div className="profile-icon h-10 w-10 rounded bg-yellow-main flex items-center justify-center">
                      <Image src={RickMini} alt="rick-mini" />
                   </div>
-                  <div className="username text-[12px] font-semibold">
-                     Morty Smith (Schwifty)
+                  <div className="username text-[12px] font-semibold flex flex-col">
+                     <h5> Morty Smith</h5>
+                     <h5>(Schwifty)</h5>
                   </div>
                </div>
                <div className="right flex flex-col gap-[2px]  w-full flex-1 justify-center">
@@ -134,18 +135,18 @@ export default function Home() {
                   </div>
                </div>
             </div>
-            <div className="join-community join-community-bg flex-shrink-0 w-full rounded-[15px] h-12 mt-12 flex items-center justify-between px-6 cursor-pointer">
+            <div className="join-community join-community-bg flex-shrink-0 w-full rounded-[15px] h-10 mt-7 flex items-center justify-between px-6 cursor-pointer">
                <div className="left flex items-center gap-2">
                   <div className="yellow-dot-bigger w-[16px] flex items-center">
                      <div className="yellow-dot  bg-yellow-main"></div>
                   </div>
-                  <div className="text font-semibold text-[18px]">
+                  <div className="text font-semibold text-[12px]">
                      <h5>Schmeckle join community</h5>
                   </div>
                </div>
                <div className="right">
                   <svg
-                     width="74"
+                     width="64"
                      height="20"
                      viewBox="0 0 60 8"
                      fill="none"
@@ -166,7 +167,7 @@ export default function Home() {
                   <Image src={OctopusRightBlue} alt="octopus" />
                </div>
             </div>
-            <div className="total-balance w-full flex flex-col mt-8">
+            <div className="total-balance w-full  flex-col mt-1 h-full flex justify-center">
                <div className="title w-full flex justify-center">
                   <p className="font-semibold text-[12px]">Total Balance</p>
                </div>
@@ -188,7 +189,7 @@ export default function Home() {
                   </div>
                </div>
             </div>
-            <div className="game-join-container w-full px-1 mt-16">
+            <div className="game-join-container w-full px-1 mt-4 h-full flex items-end mb-6">
                <div className="container w-full h-auto border border-yellow-main rounded-[15px] flex flex-col relative overflow-hidden">
                   <div className="game-join-bg-img absolute w-full h-full z-10">
                      <Image
@@ -197,7 +198,7 @@ export default function Home() {
                         className="w-full h-auto "
                      />
                   </div>
-                  <div className="top flex gap-4 justify-center items-center relative z-20 pt-4">
+                  <div className="top flex gap-4 justify-center items-center relative z-20 pt-2">
                      <div className="left">
                         <Image src={PolygonLeft} alt="left" />
                      </div>
@@ -226,19 +227,19 @@ export default function Home() {
                         <Image src={PolygonRight} alt="left" />
                      </div>
                   </div>
-                  <div className="bottom flex justify-between items-center px-2 mt-2 relative pb-4 z-20">
+                  <div className="bottom flex justify-between items-center px-2 mt-2 relative pb-2 z-20">
                      <div className="left">
                         <Image
                            src={RickHead}
                            alt="rick"
-                           className="w-20 h-auto"
+                           className="w-16 h-auto"
                         />
                      </div>
                      <div className="middle flex flex-col gap-[6px] w-auto">
-                        <h5 className="text-[18px] font-medium">
+                        <h5 className="text-[13px] font-medium">
                            Play and Earn SHM
                         </h5>
-                        <button className="bg-yellow-main w-2/3  mx-auto rounded-full text-black font-semibold">
+                        <button className="bg-yellow-main w-2/3  mx-auto rounded-full text-black font-semibold text-[12px]">
                            Play
                         </button>
                      </div>
@@ -249,7 +250,7 @@ export default function Home() {
                   </div>
                </div>
             </div>
-            <div className="farming h-full flex items-center mb-0">
+            <div className="farming  flex items-end mb-1">
                <Farming onClaim={handleClaim} />
             </div>
          </main>
