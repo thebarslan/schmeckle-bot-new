@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../assets/logo.png";
 import Image from "next/image";
 import BottomNavbar from "../components/bottomnavbar";
+import { Loading } from "../components/loading";
 
 const Wallet = () => {
    return (

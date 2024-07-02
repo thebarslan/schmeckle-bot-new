@@ -107,13 +107,13 @@ const FriendsPage = () => {
                               <div className="friend-left h-full flex items-center gap-4">
                                  <div className="friend-profile-pic-container h-[36px] w-[36px] bg-[#0019FF] rounded-full"></div>
                                  <div className="friend-user-id-container">
-                                    <h5 className="font-bold text-[14px]">
+                                    <h5 className="font-bold text-[12px]">
                                        {friend.userId}
                                     </h5>
                                  </div>
                               </div>
                               <div className="friend-right h-auto flex items-center justify-center">
-                                 <h5 className="text-[13px] font-bold">
+                                 <h5 className="text-[12px] font-bold">
                                     {friend.totalEarned} SHMT
                                  </h5>
                               </div>
@@ -180,7 +180,7 @@ const FriendsPage = () => {
                      />
                   </div>
                   <button
-                     className="w-full bg-yellow-main rounded-[10px] text-black font-bold hover:bg-white hover:text-black transition-colors duration-500"
+                     className="w-full bg-yellow-main rounded-[10px] text-black font-bold hover:bg-yellow-main hover:text-black transition-colors duration-500"
                      onClick={() => setIsFriensInvitedBefore(true)}
                   >
                      <h5 className="text-[18px]">Invite friends +</h5>
