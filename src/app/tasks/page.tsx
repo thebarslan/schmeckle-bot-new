@@ -5,6 +5,7 @@ import { FaTelegramPlane, FaCheck } from "react-icons/fa";
 import Logo from "../assets/logo.png";
 import BottomNavbar from "../components/bottomnavbar";
 import Image from "next/image";
+import { TiArrowForwardOutline } from "react-icons/ti";
 
 interface Task {
    taskIcon: JSX.Element;
@@ -75,7 +76,7 @@ const TasksPage: React.FC = () => {
                         {task.taskIcon}
                      </div>
                      <div className="task-middle w-full flex flex-col gap-0 pl-4 flex-1 justify-center">
-                        <p className="task-text font-medium text-[12px]">
+                        <p className="task-text font-medium text-[11px]">
                            {task.taskText}
                         </p>
                         <div className="reward-text flex gap-2 items-center -mt-[2px]">
@@ -105,10 +106,10 @@ const TasksPage: React.FC = () => {
                            rel="noopener noreferrer"
                         >
                            <button
-                              className="text-[12px] font-bold px-4 py-1 text-black bg-yellow-main rounded-[10px] hover:text-white hover:bg-black transition-colors duration-500"
+                              className="text-[16px] font-bold  py-1 text-white  rounded-[10px] hover:text-white hover:bg-black transition-colors duration-500"
                               onClick={() => {}}
                            >
-                              Start
+                              <TiArrowForwardOutline />
                            </button>
                         </a>
                      )}

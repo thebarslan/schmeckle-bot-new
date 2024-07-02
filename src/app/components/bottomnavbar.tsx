@@ -32,7 +32,7 @@ const BottomNavbar = () => {
    }, [pathname]);
 
    return (
-      <div className="navbar w-full flex text-center px-5 justify-between pb-8 pt-6 flex-shrink-0">
+      <div className="navbar w-full flex text-center px-5 justify-between pb-2 pt-6 flex-shrink-0">
          <div className="navbar-inside flex justify-between w-full bg-[#272A2F] px-2  items-center rounded-[15px] h-[60px]">
             <div className="nav-item flex flex-col gap-1 flex-1 w-full items-center">
                <a href="/">
@@ -60,8 +60,8 @@ const BottomNavbar = () => {
                <a href="/tasks">
                   <div className="icon-container w-auto flex justify-center h-[32px] items-center">
                      <svg
-                        width="28"
-                        height="28"
+                        width="22"
+                        height="22"
                         viewBox="0 0 30 30"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -88,8 +88,8 @@ const BottomNavbar = () => {
                   <div className="icon-container w-auto flex justify-center h-[32px] items-center">
                      <div className="container h-full flex items-center justify-center">
                         <svg
-                           width="25"
-                           height="25"
+                           width="22"
+                           height="22"
                            viewBox="0 0 25 25"
                            fill="none"
                            xmlns="http://www.w3.org/2000/svg"
@@ -125,8 +125,8 @@ const BottomNavbar = () => {
                   <div className="icon-container w-auto flex justify-center h-[32px] items-center">
                      <div className="container h-full flex items-center justify-center">
                         <svg
-                           width="32"
-                           height="32"
+                           width="25"
+                           height="25"
                            viewBox="0 0 25 25"
                            fill="none"
                            xmlns="http://www.w3.org/2000/svg"

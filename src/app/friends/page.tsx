@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Lemon from "../assets/lemon.png";
 import Image from "next/image";
 import BottomNavbar from "../components/bottomnavbar";
-import Monster2 from "../assets/monster2.png";
+import Monster2 from "../assets/squanchy.png";
 
 const FriendsPage = () => {
    const [isFriensInvitedBefore, setIsFriensInvitedBefore] = useState(false);
@@ -171,7 +171,7 @@ const FriendsPage = () => {
 
             <div className="invite-friend-button w-full flex items-center justify-center h-full flex-1">
                <div className="button-inside-container w-full relative animated-button">
-                  <div className="absolute left-0 -top-6">
+                  <div className="absolute left-2 -top-6">
                      <Image
                         src={Monster2}
                         alt="monster"

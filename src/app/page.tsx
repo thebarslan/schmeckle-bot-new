@@ -89,7 +89,7 @@ export default function Home() {
 
    return (
       <>
-         <main className="w-full h-full flex flex-col px-5 mt-[42px]">
+         <main className="w-full h-full flex flex-col px-5 mt-[20px]">
             <Script
                src="https://telegram.org/js/telegram-web-app.js"
                strategy="lazyOnload"
@@ -171,11 +171,11 @@ export default function Home() {
                <div className="title w-full flex justify-center">
                   <p className="font-semibold text-[12px]">Total Balance</p>
                </div>
-               <div className="tokens-balance w-full flex justify-center items-center font-extrabold text-[50px] -mt-4 relative">
+               <div className="tokens-balance w-full flex justify-center items-center font-extrabold text-[36px] -mt-4 relative">
                   <h5 className="text-border">{formatBalance(balance)}</h5>
-                  <div className="absolute bottom-2">
+                  <div className="absolute -bottom-0 left-10">
                      <svg
-                        width="357"
+                        width="250"
                         height="15"
                         viewBox="0 0 357 15"
                         fill="none"
@@ -202,7 +202,7 @@ export default function Home() {
                      <div className="left">
                         <Image src={PolygonLeft} alt="left" />
                      </div>
-                     <div className="middle flex items-center gap-1">
+                     <div className="middle flex items-center justify-center gap-0 -ml-1">
                         <div className="left">
                            <svg
                               width="24"
@@ -227,16 +227,16 @@ export default function Home() {
                         <Image src={PolygonRight} alt="left" />
                      </div>
                   </div>
-                  <div className="bottom flex justify-between items-center px-2 mt-2 relative pb-2 z-20">
-                     <div className="left">
+                  <div className="bottom flex justify-between items-center px-2 mt-0 relative pb-3 z-20">
+                     <div className="left w-full flex-1 flex justify-center">
                         <Image
                            src={RickHead}
                            alt="rick"
-                           className="w-16 h-auto"
+                           className="w-10 h-auto"
                         />
                      </div>
-                     <div className="middle flex flex-col gap-[6px] w-auto">
-                        <h5 className="text-[13px] font-medium">
+                     <div className="middle flex flex-col gap-[10px] w-auto text-center">
+                        <h5 className="text-[13px] font-bold">
                            Play and Earn SHM
                         </h5>
                         <button className="bg-yellow-main w-2/3  mx-auto rounded-full text-black font-semibold text-[12px]">
@@ -244,8 +244,8 @@ export default function Home() {
                         </button>
                      </div>
 
-                     <div className="right">
-                        <Image src={Ufo} alt="ufo" className="w-20 h-auto" />
+                     <div className="right w-full flex-1 flex justify-center">
+                        <Image src={Ufo} alt="ufo" className="w-16 h-auto" />
                      </div>
                   </div>
                </div>

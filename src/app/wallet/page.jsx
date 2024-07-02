@@ -7,7 +7,7 @@ const Wallet = () => {
    return (
       <div className="w-full h-full flex flex-col pt-20">
          <div className="image-container w-full flex items-center justify-center">
-            <Image src={Logo} alt="logo" className="h-56 w-auto" />
+            <Image src={Logo} alt="logo" className="h-40 w-auto" />
          </div>
          <div className="text-container w-full px-5 flex items-center justify-center">
             <h5 className="font-extrabold text-[28px]">Integrate the wallet</h5>

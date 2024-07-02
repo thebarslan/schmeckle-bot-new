@@ -93,7 +93,7 @@ const Farming: React.FC<FarmingProps> = ({ onClaim }) => {
          <div className="w-full flex px-2 justify-between items-center">
             <h5 className="font-bold text-[13px]">Farming SHM</h5>
          </div>
-         <div className="bar h-[60px] w-full rounded-[15px] bg-white relative flex items-center justify-center overflow-hidden">
+         <div className="bar h-[45px] w-full rounded-[15px] bg-white relative flex items-center justify-center overflow-hidden">
             <div className="absolute right-4 z-100">
                <h5 className="font-semibold text-[14px] text-black">
                   {formatTime(remainingTime)}
@@ -104,7 +104,7 @@ const Farming: React.FC<FarmingProps> = ({ onClaim }) => {
                   className="w-full rounded-[5px] h-full bg-yellow-main flex justify-center items-center"
                   onClick={handleClaim}
                >
-                  <h5 className="text-black font-extrabold text-[20px] relative z-60">
+                  <h5 className="text-black font-extrabold text-[16px] relative z-60">
                      CLAIM SHMT
                   </h5>
                </button>
